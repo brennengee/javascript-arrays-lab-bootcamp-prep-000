@@ -1,9 +1,8 @@
 var kittens = ["Tonka", "Peaches", "Darla", "Cat", "Whiskers", "Nietzsche"]
-var k = "Rat"
 
-function destructivelyAppendKitten(k) {
+function destructivelyAppendKitten(name) {
   var appendKitten = [...kittens]
-  appendKitten.push(k)
+  appendKitten.push(name)
   return appendKitten
 }
 
