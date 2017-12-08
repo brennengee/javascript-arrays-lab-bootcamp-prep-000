@@ -31,10 +31,10 @@ function prependKitten(name) {
   return [name, ...kittens]
 }
 
-function removeElementFromBeginningOfArray(name) {
-  return numbas.slice(1)
+function removeFirstKitten(name) {
+  return kittens.slice(1)
 }
 
 function removeLastKitten(name) {
-  return name.slice(-1)
+  return kittens.slice(-1)
 }
