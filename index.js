@@ -1,5 +1,6 @@
+var kittens = ["Tonka", "Peaches", "Darla", "Cat", "Whiskers", "Nietzsche"]
 
-function destructivelyAppendKitten(name) {
-  name.push()
-  return name
+function destructivelyAppendKitten(kittens) {
+  kittens.push()
+  return kittens
 }
