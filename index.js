@@ -24,17 +24,17 @@ function destructivelyRemoveFirstKitten(name) {
 
 
 function appendKitten(name) {
-  return [name, ...kittens]
-}
-
-function prependKitten(name) {
   return [...kittens, name]
 }
 
-function removeElementFromBeginningOfArray(numbas) {
+function prependKitten(name) {
+  return [name, ...kittens]
+}
+
+function removeElementFromBeginningOfArray(name) {
   return numbas.slice(1)
 }
 
-function removeElementFromEndOfArray(numbas) {
-  return numbas.slice(-1)
+function removeLastKitten(name) {
+  return name.slice(-1)
 }
