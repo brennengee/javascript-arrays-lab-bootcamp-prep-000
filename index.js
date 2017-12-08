@@ -12,13 +12,13 @@ function destructivelyPrependKitten(name) {
 }
 
 function destructivelyRemoveLastKitten(name) {
-  var removeLastKitten = kittens.pop(name)
-  return removeLastKitten
+  var dremoveLastKitten = kittens.pop(name)
+  return dremoveLastKitten
 }
 
 function destructivelyRemoveFirstKitten(name) {
-  var removeFirstKitten = kittens.shift(name)
-  return removeFirstKitten
+  var dremoveFirstKitten = kittens.shift(name)
+  return dremoveFirstKitten
 }
 
 
